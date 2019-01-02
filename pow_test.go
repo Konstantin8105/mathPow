@@ -12,6 +12,7 @@ var fpow = []struct {
 }{
 	{pow, "pow"},
 	{pow_des1, "pow_des1"},
+	{pow_des2, "pow_des2"},
 	{math.Pow, "math.Pow"},
 }
 
