@@ -76,6 +76,10 @@ func pow_des2(x, y float64) float64 {
 	case y == -0.5:
 		return 1 / Sqrt(x)
 	case float64(int8(y)) == y:
+		// Design based on function PowerBinary
+		// Issue #29456
+		// @MichaelTJones
+
 		isNegative := false
 		if y < 0 {
 			isNegative = true
