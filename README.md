@@ -1,0 +1,2 @@
+# mathPow
+optimization math.Pow
