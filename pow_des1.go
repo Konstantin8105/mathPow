@@ -106,10 +106,9 @@ func pow_des1(x, y float64) float64 {
 			r *= x
 		}
 		if isNegative {
-			return 1 / r
+			return 1.0 / r
 		}
 		return r
-
 	}
 
 	yi, yf := Modf(Abs(y))
