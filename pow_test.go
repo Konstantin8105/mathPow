@@ -14,6 +14,7 @@ var fpow = []struct {
 	{pow_des1, "pow_des1"},
 	{pow_des2, "pow_des2"},
 	{pow_sq1, "pow_sq1"},
+	{pow_win, "pow_win"},
 	{math.Pow, "math.Pow"},
 }
 
@@ -29,11 +30,8 @@ var tcs = []struct {
 	{"SQRT8-", math.Pi, -1.0 / 8.0},
 	{"SQRT32+", math.Pi, 1.0 / 32.0},
 	{"SQRT32-", math.Pi, -1.0 / 32.0},
-	{"SQRT64", math.Pi, -1.0 / 64.0},
-	{"SQRT128-", math.Pi, -1.0 / 128.0},
-	{"SQRT128+", math.Pi, 1.0 / 128.0},
-	{"SQRT1024-", math.Pi, -1.0 / 1024.0},
-	{"SQRT1024+", math.Pi, 1.0 / 1024.0},
+	{"SQRT64+", math.Pi, 1.0 / 64.0},
+	{"SQRT64-", math.Pi, -1.0 / 64.0},
 	{"BASE", 1.2345e-5, -2.5},
 
 	{"PI", math.Pi, 126},
